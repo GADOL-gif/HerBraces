@@ -1,13 +1,13 @@
 // 1. Write a JavaScript function to check two given numbers and return true if one of the number is 50 or if their sum is 50.
 
-const greatetThan = (a,b) => {
-    if(a == 50 || b == 50){
-        return true;        
-    }
-    if(a+b == 50){
-        return true
-    }
-    return false
+function numberCheck (a, b){
+   if(a === 50 || b === 50){
+      return true
+   }
+   if (a + b === 50){
+      return true
+   }
+   return false
 }
 console.log(numberCheck (50, 50));
 
